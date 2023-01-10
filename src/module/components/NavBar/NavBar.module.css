@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  background-color: #060f42;
+  height: 2.5rem;
+  align-items: center;
+  border-radius: 3px;
+}
+
+@media (max-width: 1250px) {
+  .navbar {
+    border-radius: 0;
+    padding: 0 0.125rem;
+  }
+}
